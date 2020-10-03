@@ -1,0 +1,189 @@
+.body {
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  width: 1200px;
+  margin: 0 auto;
+	background-color: #ffffff;
+  box-shadow: 0px 10px 10px #888888;
+}
+.main-header-logo {
+	position: absolute;
+	left:calc(50% - 68px);
+}
+.main-li a:hover {
+	color:#81b3d2;
+}
+.main-li a:active{
+	color:#847870;
+}
+.mail-li a:focus {
+	color:#ababab;
+}
+.main-li {
+	width: 300px;
+	height: 56px;
+	text-align: center;
+	padding-top: 14px;
+  box-sizing: border-box;
+}
+.main-li a{
+  color: #000000;
+	font-weight: 700;
+	line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.photo {
+text-align: left;
+}
+.map {
+  text-align: right;
+}
+.main-ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin:-1px;
+	border: 0px;
+	padding: 0px;
+	clip:rect(0 0 0 0);
+	overflow:hidden;
+}
+.welcome {
+	background-image: url("../img/background photo.png");
+	background-repeat: no-repeat;
+	background-position: center -12px;
+	background-size: cover;
+	text-align: center;
+  padding-top: 66px;
+}
+.welcome-title .title {
+  width: 508px;
+	text-align: center;
+	padding-top: 44px;
+	padding-left: 343px;
+}
+.welcome-title .reasons {
+	padding-top: 11px;
+	padding-left: 356px;
+}
+.welcome-text {
+	padding-bottom: 15px;
+}
+.white {
+	height: 57px;
+	background-image: url("../img/white.png");
+	background-size: cover;
+}
+ul,li {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+  list-style: none;
+}
+.footer-wrapper.index {
+	position: relative;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f4f2ef;
+	height:120px;
+}
+.footer.index {
+	width: 100%;
+	position: absolute;
+	bottom: 4px;
+	left: 0px;
+	opacity: 0.9;
+}
+.footer.catalog {
+	color: #fefefe;
+}
+footer .visit-sedona {
+	color: #000000;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.social-button {
+	width: 152px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.visit {
+	width: 310px;
+	padding-top: 45px;
+	padding-left: 132px;
+	box-sizing: border-box;
+}
+.button {
+	padding-top: 36px;
+}
+.button a{
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	text-align: center;
+	background-color:#81b3d2;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.button a:hover{
+	background-color:#669ec0;
+}
+.button a:active {
+	background-color:#669ec0;
+}
+.button a:active img{
+	opacity:0.3;
+}
+.reference {
+	line-height: 26px;
+	color: #000000;
+	text-transform: uppercase;
+	padding-right: 7px;
+	margin: 0px;
+	padding-top: 6px;
+}
+.academy {
+	width: 310px;
+	display: flex;
+	padding-top:38px;
+	padding-left:13px;
+	box-sizing: border-box;
+}
+.link-academy{
+	display:inline-block;
+}
+.link-academy:hover img{
+	display:none;
+}
+.link-academy:active img{
+	display:none;
+}
+.link-academy::before{
+	content:"";
+	background-image: url('../img/logo_name_hover.svg');
+	width:115px;
+	height:40px;
+	display:none;
+}
+.link-academy:hover::before{
+	display:block;
+}
+.link-academy:active::before{
+	display:block;
+	background-image: url('../img/logo_name_active.svg');
+	width:115px;
+	height:40px;
+	background-size: cover;
+}
