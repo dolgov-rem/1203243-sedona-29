@@ -27,7 +27,7 @@
 .main-li a:active{
 	color:#847870;
 }
-.mail-li a:focus {
+.main-li a:focus {
 	color:#ababab;
 }
 .main-li {
@@ -239,16 +239,15 @@ ul {
 	line-height: 14px;
 }
 .sedona-bymap {
-	padding-top:123px;
+	padding-top:120px;
 }
 .footer-wrapper.index {
 	position: relative;
 }
 .footer {
 	display: flex;
-	justify-content: space-between;
-  background-color: #f4f2ef;
-  Height:120px;
+  background-color: #ffffff;
+  height:120px;
 }
 .footer.index {
 	width: 100%;
@@ -260,22 +259,24 @@ ul {
 .footer.catalog {
 	color: #fefefe;
 }
-footer .visit-sedona {
+.visit-sedona {
 	color: #000000;
 	font-size: 21px;
 	font-weight: 700;
-	line-height: 26px;
+	line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 20px;
+
 }
-footer .phone-number {
+.phone{
   color: #000000;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 .footer-wrapper {
 	width: 1200px;
@@ -283,22 +284,27 @@ footer .phone-number {
 	background-color: #ffffff;
   box-shadow: 0px 10px 10px #888888;
 }
-.social-button {
+.social-list {
 	width: 152px;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 }
 .visit {
-	width: 380px;
-	padding-top: 45px;
-	padding-left: 132px;
-	box-sizing: border-box;
+	width: 400px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
-.button {
-	padding-top: 36px;
+.social-block{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.button a{
+.items a{
 	display: inline-block;
 	width: 46px;
 	height: 48px;
@@ -307,54 +313,54 @@ footer .phone-number {
 	padding-top: 15px;
 	box-sizing: border-box;
 }
-.button a:hover{
+.items a:hover{
 	background-color:#669ec0;
 }
-.button a:active {
+.items a:active {
 	background-color:#669ec0;
 }
-.button a:active img{
+.items a:active img{
 	opacity:0.3;
 }
-.reference {
-	line-height: 26px;
-	color: #000000;
-	text-transform: uppercase;
-	padding-right: 7px;
-	margin: 0px;
-	padding-top: 6px;
-}
-.academy {
-	width: 310px;
+.developed-by {
+	width: 400px;
 	display: flex;
-	padding-top:38px;
-	padding-left:13px;
-	box-sizing: border-box;
+	justify-content: center;
+  align-items: center;
 }
-.link-academy {
-	display:inline-block;
+.developed {
+  padding-right: 8px;
+
 }
-.link-academy:hover img{
+.developed-logo {
+  display:inline-block;
+  height:41px;
+}
+.developed-logo:hover img{
+  display:none;
+  align-items: center;
+}
+.developed-logo:active img{
 	display:none;
 }
-.link-academy:active img{
-	display:none;
-}
-.link-academy::before{
+.developed-logo::before{
 	content:"";
 	background-image: url('../img/logo-htmlacademy-hover.svg');
 	width:115px;
-	height:40px;
-	display:none;
+	height:41px;
+  display:none;
+  align-items: center;
 }
-.link-academy:hover::before{
-	display:block;
+.developed-logo:hover::before{
+  display:block;
+  align-items: center;
 }
-.link-academy:active::before{
+.developed-logo:active::before{
 	display:block;
 	background-image: url('../img/logo-htmlacademy-push.svg');
 	width:115px;
-	height:40px;
+  height:41px;
+  align-items: center;
 	background-size: cover;
 }
 .intresting {
@@ -412,6 +418,7 @@ color: #000000;
 	margin-left:-39px;
 }
 .check-input:checked +.check_box {
+  width: 27px;
 	background-image:url(../img/checkbox-on.svg);
 }
 .list-filters-checkboxes input[type="checkbox"]{
@@ -552,7 +559,7 @@ color: #000000;
 	justify-content: space-between;
 	width: 354px;
 	padding-top: 25px;
-	margin-left:48px;
+	margin-left: 48px;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
@@ -713,10 +720,22 @@ color: #000000;
 	width: 110px;
 	background-color:#f2f2f2;
 	color: #666666;
-	line-height: 21px;
+	line-height: 26px;
 	text-transform: uppercase;
-	text-align: center;
+  text-align: center;
 }
 a:-webkit-any-link {
   text-decoration: none;
+}
+.current-page a {
+  color: #766357;
+}
+.map-responsive iframe {
+  width:1200px;
+  height:450px;
+  border:0px;
+}
+
+.gmnoprint .gm-bundled-control .gm-bundled-control-on-bottom  {
+  bottom: 335px;
 }
